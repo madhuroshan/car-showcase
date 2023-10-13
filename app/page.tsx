@@ -37,8 +37,8 @@ export default async function Home({ searchParams }) {
           <SearchBar />
 
           <div className="home__filter-container">
-            <Filter type="fuel" options={fuels} />
-            <Filter type="year" options={yearsOfProduction} />
+            <Filter title="fuel" options={fuels} />
+            <Filter title="year" options={yearsOfProduction} />
           </div>
         </div>
 
